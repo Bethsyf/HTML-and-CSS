@@ -1,106 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
+  </head>
 
-<style>
-    body{
-        background-image: url('https://p4.wallpaperbetter.com/wallpaper/223/384/898/code-web-development-javascript-computer-screen-pixels-programming-php-syntax-highlighting-programming-language-html-wallpaper-preview.jpg');
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: cover;
-    }   
-    .container{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        
+  <style>
+    body {
+      background-image: url('https://p4.wallpaperbetter.com/wallpaper/223/384/898/code-web-development-javascript-computer-screen-pixels-programming-php-syntax-highlighting-programming-language-html-wallpaper-preview.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
     }
 
-    .card{
-        width: 400px;
-        height: 500px;
-        background:cornflowerblue;
-        opacity: 0.95;
-        border-radius: 15px;
-        display: flex;
-        justify-content: center;
-        position:relative;
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
     }
+
+    .card {
+      width: 400px;
+      height: 500px;
+      background: cornflowerblue;
+      opacity: 0.95;
+      border-radius: 15px;
+      display: flex;
+      justify-content: center;
+      position: relative;
+    }
+
     .container-img {
-       width: 25%;
-        height: 130px;
-        border-radius: 70%;
-        margin-top: 10px;        
-        overflow: hidden;
+      width: 25%;
+      height: 130px;
+      border-radius: 70%;
+      margin-top: 10px;
+      overflow: hidden;
     }
-    .container-img img{
-        width: 100%;
-        text-align: center;
-    }
-    .container-title{
-       width: 120%;
-       height: 30%;
-       position: absolute;
-       display: flex;
-       flex-direction: row;
-       justify-content: space-around;
-       align-items: center;       
-    }
-    p{
-        font-family: monospace;
-        font-weight: 800;  
-        font-size:xx-large;         
-    }
-    .card div:nth-child(3){
-        top: 18%;        
-    }
-    .info{
-        border: 1px solid black;
-        background-color: grey;
-        color:yellow;
-        opacity: 0.8;
-        position: absolute;        
-        display: flex;
-        bottom: 25%;
-        width: 300px;
-        height: 150px;
-    }
-    
-</style>
 
-<body>
-    <section class="container" >
-        <div class="card">
-            <div class="container-img">
-                <img src="./images/bethsy.jpg" alt="foto-perfil">
-            </div>
-            <div  class="container-title">
-                <p>Front</p>
-                <p>End</p>
-            </div>
-            <div class="container-title">
-                <p>Developer</p>
-            </div>
-            <div class="info">
-                <div>
-                    <p>Bethsy Falcon</p>
-                </div>
-                <div>
-                    <p>Skills:</p>
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JS</li>
-                    </ul>
-                </div>
-            </div>
+    .container-img img {
+      width: 100%;
+      text-align: center;
+    }
+
+    .container-title {
+      width: 120%;
+      height: 30%;
+      position: absolute;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    p {
+      font-family: monospace;
+      font-weight: 800;
+      font-size: xx-large;
+    }
+    .card div:nth-child(3) {
+      top: 18%;
+    }
+
+    .info {
+      border: 1px solid black;
+      background-color: grey;
+      color: yellow;
+      opacity: 0.8;
+      position: absolute;
+      display: flex;
+      bottom: 25%;
+      width: 300px;
+      height: 150px;
+    }
+  </style>
+
+  <body>
+    <section class="container">
+      <div class="card">
+        <div class="container-img">
+          <img src="./images/bethsy.jpg" alt="foto-perfil" />
         </div>
+        <div class="container-title">
+          <p>Front</p>
+          <p>End</p>
+        </div>
+        <div class="container-title">
+          <p>Developer</p>
+        </div>
+        <div class="info">
+          <div>
+            <p>Bethsy Falcon</p>
+          </div>
+          <div>
+            <p>Skills:</p>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JS</li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </section>
-</body>
+  </body>
 </html>
